@@ -1,6 +1,4 @@
 {
-  "version": "23 (Sans-2.004-VF/Serif-2.002-VF)",
-  "versionCode": 23,
-  "zipUrl": "https://github.com/simonsmh/notocjk/releases/download/23/notocjk.zip",
-  "changelog": "https://cdn.jsdelivr.net/gh/simonsmh/notocjk/extra/changelog.md"
+  "version": "23 (Sans-2.004-VF/Serif-2.002-VF/Zhudou-2.000-VF/Inter-4.0-beta9h-VF/Hack-3.003)",
+  "versionCode": 23
 }
