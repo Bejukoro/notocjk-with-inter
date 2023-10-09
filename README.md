@@ -17,17 +17,17 @@ Currently, this module is still maintained. You can download it directly in this
 
 ## NOTICE
 
-You should use latest Magisk Manager to install this module. If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
+You should use the latest [Magisk](https://github.com/topjohnwu/Magisk/) Manager or [KernelSU](https://kernelsu.org/) Manager to install this module.
+
+If you install this module through Magisk Manager, when updating the module, you only need to overwrite the new version of the module; however, if you install it through KernelSU Manager, please uninstall the old version of this module first and restart your device, then reinstall the new version of this module.
+
+If you meet any problem under installation from Magisk Manager, please try to install it from recovery.
 
 ### Known issues
 
-The Zhudou Sans in this module currently only supports Simplified Chinese punctuation. This issue will be improved later.
-
-HK fonts style is pending & waiting for Google solution in later android versions.
-
-Font weight in Firefox is not current (all be thin) if force it to use Noto Sans CJK VF. ([Original repo #28](https://github.com/simonsmh/notocjk/issues/28))
-
-Android 12 may crash in some app after installed version 10 and above with Magisk Hide enabled. See: (Chinese only, more details of logs in comments) https://t.me/magiskalpha/297
+- HK fonts style is pending & waiting for Google solution in later android versions.
+- Font weight in Firefox is not current (all be thin) if force it to use Noto Sans CJK VF. ([Original repo #28](https://github.com/simonsmh/notocjk/issues/28))
+- Android 12 may crash in some app after installed version 10 and above with Magisk Hide enabled. See: (Chinese only, more details of logs in comments) https://t.me/magiskalpha/297
 
 ## Credit
 

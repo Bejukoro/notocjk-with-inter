@@ -14,17 +14,17 @@
 
 ## 注意事项
 
-您应使用最新版本的 [Magisk Manager](https://github.com/topjohnwu/Magisk/releases) 来安装此模块。如果您在通过 Magisk Manager 安装时遇到了任何问题，请尝试通过 Recovery 模式安装它。
+您应使用最新版本的 [Magisk](https://github.com/topjohnwu/Magisk/) Manager 或 [KernelSU](https://kernelsu.org/zh_CN/) Manager 来安装此模块。
 
-### Known issues
+如果您通过 Magisk Manager 安装此模块，更新模块时，仅需覆盖安装新版本模块即可；然而，如果您通过 KernelSU Manager 安装，则请先卸载此模块的旧版本并重启设备，随后重新安装此模块的新版本。
 
-The Zhudou Sans in this module currently only supports Simplified Chinese punctuation. This issue will be improved later.
+如果您在通过 Magisk Manager 安装此模块时遇到了任何问题，请尝试通过 Recovery 安装。
 
-HK fonts style is pending & waiting for Google solution in later android versions.
+### 已知问题
 
-Font weight in Firefox is not current (all be thin) if force it to use Noto Sans CJK VF. ([Original repo #28](https://github.com/simonsmh/notocjk/issues/28))
-
-Android 12 may crash in some app after installed version 10 and above with Magisk Hide enabled. See: (Chinese only, more details of logs in comments) https://t.me/magiskalpha/297
+- 由于 Android 系统的限制，HK 字体样式暂无法在同时支持所有 CJK 字型的情况下完美适配。请等待 Google 在后续 Android 版本中解决。
+- 如果强制使用 Noto Sans CJK VF，Firefox 中的字体粗细将出现问题（全部显示为 Light 字重）。（[原模块仓库 #28](https://github.com/simonsmh/notocjk/issues/28)）
+- 在 Android 12+ 上安装了 Magisk Hide 10+ 时，若启用本模块，某些应用将会崩溃。参见：https://t.me/magiskalpha/297 （此处评论中有更多日志详情）
 
 ## Credit
 
