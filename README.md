@@ -1,7 +1,7 @@
 # NotoCJK (Modded by Bejukoro)
 [![Download](https://img.shields.io/github/downloads/bejukoro/notocjk-with-inter/total.svg)](https://github.com/bejukoro/notocjk-with-inter/releases)
 
-English | [简体中文](./README_zh-CN.md)
+English | [简体中文](./README-zh_CN.md)
 
 [NotoSansCJK & NotoSerifCJK](https://github.com/googlefonts/noto-cjk) full weight patch for Android devices. And replaced the CJK punctuation, default Latin and monospace font with [Zhudou Sans](https://github.com/Buernia/Zhudou-Sans), [Inter](https://rsms.me/inter/) and [Hack](https://sourcefoundry.org/hack/).
 
