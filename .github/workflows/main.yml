@@ -1,0 +1,26 @@
+name: Upload zip
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Make release zip
+      run: |
+        wget https://github.com/topjohnwu/Magisk/raw/master/scripts/module_installer.sh -O META-INF/com/google/android/update-binary
+        zip -9 -x "*.git*" -x "extra/*" -x "extra" -r ../notocjk-with-inter.zip ./
+        sha256sum ../notocjk-with-inter.zip > ../notocjk-with-inter.zip.sha256sum
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          ../notocjk-with-inter.zip
+          ../notocjk-with-inter.zip.sha256sum
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/upload-artifact@v1
+      with:
+        name: notocjk-with-inter
+        path: ./
+
