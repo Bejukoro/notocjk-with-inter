@@ -1,7 +1,7 @@
-id=notocjk
+id=notocjkwithinter
 name=NotoCJK (Modded)
 version=23 (Sans-2.004-VF/Serif-2.002-VF/Zhudou-2.000-VF/Inter-4.0-beta9h-VF/Hack-3.003)
 versionCode=23
 author=simonsmh (Modded by Bejukoro)
-description=适用于 Android 设备的 NotoSansCJK 和 NotoSerifCJK 全字重补丁。修改内容：用煮豆黑体（启用蝌蚪形逗号）、Inter (启用 cv05 & cv08) 和 Hack 替换了 CJK 标点、拉丁文和等宽字体。\rNotoSansCJK & NotoSerifCJK full weight patch for Android devices. Modification content: replaced the CJK punctuation, default Latin and monospace font with Zhudou Sans (tadpole-shaped comma), Inter (cv05 & cv08) and Hack.
+description=适用于 Android 设备的 NotoSansCJK 和 NotoSerifCJK 全字重补丁。修改内容：用煮豆黑体、Inter 和 Hack 替换了 CJK 标点、拉丁文和等宽字体。| NotoSansCJK & NotoSerifCJK full weight patch for Android devices. Modification content: replaced the CJK punctuation, default Latin and monospace font with Zhudou Sans, Inter and Hack.
 # updateJson=https://cdn.jsdelivr.net/gh/simonsmh/notocjk/version.json
